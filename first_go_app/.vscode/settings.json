@@ -1,4 +1,16 @@
 {
     "go.inferGopath": false,
-    // "go.gopath": "/go/src/my_go_app/"
+    "go.autocompleteUnimportedPackages": true,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+    "go.lintTool": "golint",
+    "go.lintOnSave": "workspace",
+    "[go]": {
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+    }
 }

@@ -4,7 +4,8 @@ import (
 	"fmt"
 )
 
-func init() {
+// Init initiate server
+func Init() {
 	fmt.Println("Server initiation function")
-	web
+
 }
