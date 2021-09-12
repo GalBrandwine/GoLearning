@@ -14,6 +14,8 @@ func Init() {
 	logger.LogInfo("Initiating server...")
 	web.Init()
 
-	p1 := &web.Page{Title: "TestPage", Body: []byte("This is a sample Page.")}
-	p1.Save()
+	// p1 := &web.Page{Title: "TestPage", Body: []byte("This is a sample Page.")}
+	// p1.Save()
+	// p2, _ := web.LoadPage("TestPage")
+	// logger.LogInfo(p2.Title)
 }
